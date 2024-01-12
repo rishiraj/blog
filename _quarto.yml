@@ -3,9 +3,6 @@ project:
   output-dir: docs
 
 website:
-  comments: 
-    hypothesis:
-      theme: clean
   title: "Rishiraj's Blog"
   navbar:
     right:
@@ -16,6 +13,9 @@ website:
         href: https://twitter.com/rishirajacharya
 format:
   html:
+    comments:
+      hypothesis:
+        theme: clean
     smooth-scroll: true
     theme:
       light: sketchy
