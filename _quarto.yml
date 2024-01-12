@@ -3,20 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "Blog"
+  comments: 
+    hypothesis:
+      theme: clean
+  title: "Rishiraj's Blog"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/rishiraj
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/rishirajacharya
 format:
   html:
-    theme: cosmo
+    theme:
+      light: sketchy
+      dark: sketchy
     css: styles.css
-
-comments:
-  hypothesis: 
-    theme: clean
-
