@@ -19,5 +19,5 @@ format:
     smooth-scroll: true
     theme:
       light: sketchy
-      dark: sketchy
+      dark: [sketchy, theme-dark.scss]
     css: styles.css
