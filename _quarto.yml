@@ -16,6 +16,7 @@ website:
         href: https://twitter.com/rishirajacharya
 format:
   html:
+    smooth-scroll: true
     theme:
       light: sketchy
       dark: sketchy
